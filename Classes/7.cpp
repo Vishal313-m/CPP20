@@ -39,3 +39,16 @@ int main(){
    
     return 0;
 }
+
+
+/*
+Dog constructor called for Dogyy1
+Dog constructor called for Dogyy2
+Dog constructor called for Dogyy3
+Dog constructor called for Dogyy4
+Dog destructor called for : Dogyy4
+Dog destructor called for : Dogyy3
+Dog destructor called for : Dogyy2
+Dog destructor called for : Dogyy1
+
+*/
