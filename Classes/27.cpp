@@ -115,3 +115,54 @@ int main(){
    
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+Question 1:
+Considering the code below
+
+class Point{
+    public : 
+    //methods
+    Point(double x = 10.1, double y = 100.1)
+        : m_x(x), m_y(y){
+    }
+ 
+    Point(const Point& p)
+     : m_x(p.x()), m_y(p.y())
+    {
+        std::cout << "cpy ctor called..." << std::endl;
+    }
+ 
+    void set_x(double x){
+        m_x = x;
+    }
+ 
+    void set_y(double y){
+        m_y = y;
+    }
+ 
+    double x() const   {
+        return m_x;
+    }
+    double y() const   {
+        return m_y;
+    }
+    //member variables
+    private : 
+    double m_x{1};
+    double m_y{1};
+};
+do you need to set up a move constructor for the class ? 
+
+
+
+
+

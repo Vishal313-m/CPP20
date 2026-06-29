@@ -21,6 +21,7 @@ int main(){
         std::cout << "scores [" << i << "] : " << scores[i] << std::endl;
     }
     */
+   
   
 
 
