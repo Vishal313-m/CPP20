@@ -1,3 +1,7 @@
+
+/* https://www.youtube.com/watch?v=sAZ6JvLPx_0&t=538s */
+
+
 Vtable (Virtual Table):
 The vtable is a lookup table that the compiler creates for each class that has virtual functions.
 The vtable contains the addresses of the virtual functions that belong to that class.
@@ -28,3 +32,6 @@ and the corresponding function is then called.
 
 This mechanism allows for dynamic dispatch, where the correct version of a virtual function is called at runtime based on the actual type of the object,
  rather than the static type of the pointer or reference used to access the object.
+
+
+

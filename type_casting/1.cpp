@@ -1,5 +1,7 @@
 /*const CAST */
 
+
+/*  https://www.youtube.com/watch?v=HzTTVEsR5Ew&t=62s */
 /* Syntax
 
 const_cast< target-type >( expression )		

@@ -1,4 +1,6 @@
- What is static variable 
+ /*  https://www.youtube.com/watch?v=Uwzfm3UJWww*/
+
+What is static variable 
 A static variable in C++ is a variable that is declared using the keyword static. The space for the static variable is allocated only one time 
 and this is used for the entirety of the program. Once this variable is declared, it exists till the program executes.
  So, the lifetime of a static variable is the lifetime of the program.
